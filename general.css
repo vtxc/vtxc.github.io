@@ -2,7 +2,7 @@
 /* --------------------------------------- @media screen > VIEWPORTs se nalaze u _menu.css */ 
 
 body { 
-    background-color: #54566b; /* Color 01  */ 
+    background-color: #7d7e98; /* Color 01 979ac0  #54566b */ 
     font-family: SlovaR, Tahoma, sans-serif; 
     font-size: 20px; 
     color: white; 
@@ -12,9 +12,14 @@ body {
 }
 
 .main-css {
+    display: flex;
+    flex-direction: column; /* privremeno - da bi stavio imejl u dno ovog diva */
+    height: 85vh; /* privremeno - da bi stavio imejl u dno ovog diva */
+
     text-align:center; 
     max-width: 1500px;
     margin: 0 auto; /* center div horizontaly */
+
 }
 
 a:link {text-decoration: none; color: #adade2; }
@@ -37,7 +42,8 @@ a:active {text-decoration: none; color: #8989ce; }
 
 
 footer {
-    padding:2%; 
+    padding-left:2%;
+    padding-right:2%;
     background-color: #31323f;
     text-align: center;
 }
