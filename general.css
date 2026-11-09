@@ -12,10 +12,6 @@ body {
 }
 
 .main-css {
-    display: flex;
-    flex-direction: column; /* privremeno - da bi stavio imejl u dno ovog diva */
-    height: 85vh; /* privremeno - da bi stavio imejl u dno ovog diva */
-
     text-align:center; 
     max-width: 1500px;
     margin: 0 auto; /* center div horizontaly */
